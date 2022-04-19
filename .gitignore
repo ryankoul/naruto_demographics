@@ -109,6 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+naruto/
 
 # Spyder project settings
 .spyderproject
