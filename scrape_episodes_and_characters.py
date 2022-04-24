@@ -64,7 +64,7 @@ def scrape_and_write_narutopedia_to_csvs() -> None:
     characters and write each to separate csv files.
     """
 
-    with open("naruto_episodes.csv", "w") as file:
+    with open("data/naruto_episodes.csv", "w") as file:
         writer = csv.writer(file)
         writer.writerow(
             [
@@ -79,7 +79,7 @@ def scrape_and_write_narutopedia_to_csvs() -> None:
             ]
         )
 
-    with open("naruto_characters.csv", "w") as file:
+    with open("data/naruto_characters.csv", "w") as file:
         writer = csv.writer(file)
         writer.writerow(
             [
@@ -237,7 +237,7 @@ def scrape_and_write_narutopedia_to_csvs() -> None:
                         nature_types,
                         affiliations,
                     ]
-                    with open("naruto_characters.csv", "a") as file:
+                    with open("data/naruto_characters.csv", "a") as file:
                         writer = csv.writer(file)
                         writer.writerow(character_data)
 
@@ -251,7 +251,7 @@ def scrape_and_write_narutopedia_to_csvs() -> None:
                 filler_status,
                 episode_characters,
             ]
-            with open("naruto_episodes.csv", "a") as file:
+            with open("data/naruto_episodes.csv", "a") as file:
                 writer = csv.writer(file)
                 writer.writerow(episode_data)
 
