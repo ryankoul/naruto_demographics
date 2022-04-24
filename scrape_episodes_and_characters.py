@@ -83,6 +83,7 @@ def scrape_and_write_narutopedia_to_csvs() -> None:
         writer = csv.writer(file)
         writer.writerow(
             [
+                "name",
                 "sex",
                 "birth_month",
                 "birth_day",
@@ -218,7 +219,7 @@ def scrape_and_write_narutopedia_to_csvs() -> None:
                                     "a[href^='/wiki/']:nth-of-type(2n)"
                                 )
                             ]
-                        # Get every second match because nature type href tag is duplicated
+                        # Get every second match because href tag is duplicated
                         if nature_type_results := info_table.select(
                             "a[href$='_Release']:nth-of-type(2n)"
                         ):
@@ -254,8 +255,8 @@ def scrape_and_write_narutopedia_to_csvs() -> None:
                 writer = csv.writer(file)
                 writer.writerow(episode_data)
 
-        # # Space out requests by 1 second
-        # sleep(1)
+        # Space out requests by 1 second
+        sleep(1)
 
 
 if __name__ == "__main__":

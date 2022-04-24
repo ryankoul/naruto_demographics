@@ -1,4 +1,4 @@
-sex,birth_month,birth_day,blood_type,astrological_sign,nature_types,affiliations
+name,sex,birth_month,birth_day,blood_type,astrological_sign,nature_types,affiliations
 Naruto Uzumaki,Male,October,10,B,Libra,"['Lava', 'Magnet', 'Boil', 'Wind', 'Lightning', 'Earth', 'Water', 'Fire', 'Lava', 'Magnet', 'Boil', 'Yin', 'Yang', 'Yin–Yang']","['Konohagakure', 'Mount Myōboku', 'Allied Shinobi Forces']"
 Sasuke Uchiha,Male,July,23,AB,Leo,"['Lightning', 'Fire', 'Wind', 'Earth', 'Water', 'Yin']","['Konohagakure', 'Otogakure', 'Ryūchi Cave', 'Akatsuki']"
 Sakura Haruno,Female,March,28,O,Aries,"['Earth', 'Water', 'Fire', 'Yin', 'Yang']","['Konohagakure', 'Allied Shinobi Forces', 'Shikkotsu Forest']"
